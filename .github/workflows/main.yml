@@ -6,9 +6,9 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-22.04,,,,
+    runs-on: ubuntu-22.04
     steps: 
       - name: testing
         run: |
          IMAGE_TAG=${{ github.run_number }}
-         echo $IMAGE_TAG
+         echo $IMAGE_TAGG
