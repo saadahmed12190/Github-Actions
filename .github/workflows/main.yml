@@ -11,4 +11,4 @@ jobs:
       - name: testing
         run: |
          IMAGE_TAG=${{ github.run_number }}
-         echo $IMAGE_TAGG
+         echo $IMAGE_TAGI
