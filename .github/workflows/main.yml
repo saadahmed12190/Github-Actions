@@ -11,4 +11,4 @@ jobs:
       - name: testing
         run: |
          IMAGE_TAG=${{ github.run_number }}
-         echo $SOMETHING
+         echo 'My current runner value is $IMAGE_TAG'
